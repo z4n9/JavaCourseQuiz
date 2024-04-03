@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        //
         System.out.println("Hello! Welcome to QUIZ");
         System.out.println("Choose your subject: ");
         System.out.println("History(1), Geography(2), Math(3), Java Lang(4)");
