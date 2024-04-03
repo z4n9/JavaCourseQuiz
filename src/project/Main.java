@@ -11,28 +11,32 @@ public class Main {
 
         int subject = input.nextInt();
 
+
         switch (subject){
             case 1:
                 System.out.println("You choose History! Good Luck!");
-
+                history.KZHistory();
+                break;
             case 2:
                 System.out.println("You choose Geography! Good Luck!");
+                geo.Geography();
+                break;
             case 3:
                 System.out.println("You choose Math! Good Luck!");
+                math.Math();
+                break;
             case 4:
                 System.out.println("You choose Java Lang! Good Luck!");
-
+                java_lang.JVProgramming();
+                break;
         }
 
 
-        String answTest[] = new String[4];
-        for (int i = 0; i < answTest.length; i++) {
-            answTest[i] = input.next();
-        }
-        history.KZHistory();
-        java_lang.JVProgramming();
-        math.Math();
-        geo.Geography();
+
+
+
+
+
 
     }
 }
