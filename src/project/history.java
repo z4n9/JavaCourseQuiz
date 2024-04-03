@@ -1,2 +1,23 @@
-package project;public class history {
+package project;
+
+import java.util.Scanner;
+
+public class history {
+    public static void KZHistory(){
+        Scanner input = new Scanner(System.in);
+
+        String questH[] = {
+                "Кто был первым президентом США?",
+                "В каком году началась Первая мировая война?",
+                "Кто был правителем Древнего Рима, известным как первый император?",
+                "Какая страна была первой, кто использовал атомное оружие в военных действиях?",
+                "В каком году состоялась Великая французская революция?"};
+
+        String[] RightAnswH ={
+                "Джордж Вашингтон",
+                "1914",
+                "Август",
+                "США",
+                "1789"};
+    }
 }

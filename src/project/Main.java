@@ -1,15 +1,38 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+package project;
+import java.sql.SQLOutput;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Scanner input = new Scanner(System.in);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        System.out.println("Hello! Welcome to QUIZ");
+        System.out.println("Choose your subject: ");
+        System.out.println("History(1), Geography(2), Math(3), Java Lang(4)");
+
+        int subject = input.nextInt();
+
+        switch (subject){
+            case 1:
+                System.out.println("You choose History! Good Luck!");
+
+            case 2:
+                System.out.println("You choose Geography! Good Luck!");
+            case 3:
+                System.out.println("You choose Math! Good Luck!");
+            case 4:
+                System.out.println("You choose Java Lang! Good Luck!");
+
         }
+
+
+        String answTest[] = new String[4];
+        for (int i = 0; i < answTest.length; i++) {
+            answTest[i] = input.next();
+        }
+        history.KZHistory();
+        java_lang.JVProgramming();
+        math.Math();
+        geo.Geography();
+
     }
 }
