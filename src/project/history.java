@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class history {
-    public static void KZHistory(){
+    public static void History(){
         Scanner input = new Scanner(System.in);
 
         // то куда ты ответы записываешь

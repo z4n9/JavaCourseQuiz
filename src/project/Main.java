@@ -15,7 +15,7 @@ public class Main {
         switch (subject){
             case 1:
                 System.out.println("You choose History! Good Luck!");
-                history.KZHistory();
+                history.History();
                 break;
             case 2:
                 System.out.println("You choose Geography! Good Luck!");
@@ -30,11 +30,6 @@ public class Main {
                 java_lang.JVProgramming();
                 break;
         }
-
-
-
-
-
 
 
 
