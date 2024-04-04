@@ -48,6 +48,18 @@ public class history {
             }
         }
 
-        System.out.println(points);
+        switch (points){
+            case 1:
+                System.out.println("Very bad :(. You got " + points + " points");
+            case 2:
+                System.out.println("Bad :(. You got " + points + " points");
+            case 3:
+                System.out.println("Not bad. You got " + points + " points");
+            case 4:
+                System.out.println("Good! You got " + points + " points");
+            case 5:
+                System.out.println("Great! :) You got " + points + " points");
+        }
+
     }
 }
