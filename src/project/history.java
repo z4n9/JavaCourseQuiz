@@ -40,7 +40,9 @@ public class history {
         //цикл задающий вопрос, принимающий ответ и сравнивающий с правильным ответом, добовляет очки
         for (int i = 0; i < questH.length; i++) {
             System.out.println(questH[i]);
-            System.out.println(Arrays.toString(answH[i]));
+            for (int j = 0; j < 4; j++) {
+                System.out.println(answH[i][j]);
+            }
             answTest = input.next();
 
             if(answTest.equals(RightAnswH[i])){
@@ -51,14 +53,19 @@ public class history {
         switch (points){
             case 1:
                 System.out.println("Very bad :(. You got " + points + " points");
+                break;
             case 2:
                 System.out.println("Bad :(. You got " + points + " points");
+                break;
             case 3:
                 System.out.println("Not bad. You got " + points + " points");
+                break;
             case 4:
                 System.out.println("Good! You got " + points + " points");
+                break;
             case 5:
                 System.out.println("Great! :) You got " + points + " points");
+                break;
         }
 
     }
